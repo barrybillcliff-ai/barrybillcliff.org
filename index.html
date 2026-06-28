@@ -7,9 +7,14 @@
   <meta name="description" content="Barry Billcliff's international travel archive featuring world landmarks, historic sites, family travel, ancient places, adventure, and exploration.">
   <link rel="canonical" href="https://www.barrybillcliff.org/">
   <link rel="stylesheet" href="styles.css">
+  <meta name="theme-color" content="#2d6b57">
   <meta property="og:title" content="Barry Billcliff | International Travel Archive">
   <meta property="og:description" content="International travel, world landmarks, ancient sites, family adventures, and exploration archive.">
   <meta property="og:image" content="https://www.barrybillcliff.org/assets/machu-picchu-panorama.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Barry Billcliff | International Travel Archive">
+  <meta name="twitter:description" content="World landmarks, ancient sites, family travel, adventure, and exploration archive.">
+  <meta name="twitter:image" content="https://www.barrybillcliff.org/assets/machu-picchu-panorama.jpg">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -20,6 +25,7 @@
   </script>
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
   <header class="site-header">
     <a class="brand" href="index.html">Barry Billcliff<span>.org</span></a>
     <nav aria-label="Primary navigation">
@@ -30,9 +36,9 @@
     </nav>
   </header>
 
-  <main>
+  <main id="main-content">
     <section class="hero">
-      <img src="assets/machu-picchu-panorama.jpg" alt="Machu Picchu terraces and mountains under a blue sky">
+      <img src="assets/machu-picchu-panorama.jpg" alt="Machu Picchu terraces and mountains under a blue sky" fetchpriority="high" decoding="async">
       <div>
         <p class="eyebrow">International travel and exploration</p>
         <h1>World landmarks, ancient places, and family adventures.</h1>
@@ -75,15 +81,25 @@
       <p class="kicker">Selected Travel Images</p>
       <h2>International Travel Archive</h2>
       <div class="gallery">
-        <figure><img src="assets/egypt-giza-pyramids-family.jpg" alt="Family travel photo with the pyramids of Giza in the background"><figcaption>Egypt and the Giza pyramids.</figcaption></figure>
-        <figure><img src="assets/australia-sydney-opera-house.jpg" alt="Sydney Opera House travel selfie"><figcaption>Sydney Opera House.</figcaption></figure>
-        <figure><img src="assets/india-taj-mahal-family-travel.jpg" alt="Family travel image at the Taj Mahal"><figcaption>Taj Mahal, India.</figcaption></figure>
-        <figure><img src="assets/chile-easter-island-rapa-nui-moai-travel-video-still.jpg" alt="Easter Island moai travel image"><figcaption>Rapa Nui / Easter Island.</figcaption></figure>
-        <figure><img src="assets/peru-sacred-valley-family.jpg" alt="Family travel image in Peru's Sacred Valley"><figcaption>Peru's Sacred Valley.</figcaption></figure>
-        <figure><img src="assets/italy-rome-colosseum.jpg" alt="Barry Billcliff at the Colosseum in Rome"><figcaption>Rome and the Colosseum.</figcaption></figure>
-        <figure><img src="assets/india-jaipur-jal-mahal-family-travel.jpg" alt="Travel image with Jal Mahal in Jaipur"><figcaption>Jaipur, India.</figcaption></figure>
-        <figure><img src="assets/dubai-burj-khalifa-skyline-travel-portrait.jpg" alt="Dubai skyline travel portrait near the Burj Khalifa"><figcaption>Dubai skyline.</figcaption></figure>
-        <figure><img src="assets/scuba-diving-adventure.jpg" alt="Scuba diving adventure image"><figcaption>Underwater travel and adventure.</figcaption></figure>
+        <figure><img src="assets/egypt-giza-pyramids-family.jpg" alt="Family travel photo with the pyramids of Giza in the background" loading="lazy" decoding="async"><figcaption>Egypt and the Giza pyramids.</figcaption></figure>
+        <figure><img src="assets/australia-sydney-opera-house.jpg" alt="Sydney Opera House travel selfie" loading="lazy" decoding="async"><figcaption>Sydney Opera House.</figcaption></figure>
+        <figure><img src="assets/india-taj-mahal-family-travel.jpg" alt="Family travel image at the Taj Mahal" loading="lazy" decoding="async"><figcaption>Taj Mahal, India.</figcaption></figure>
+        <figure><img src="assets/chile-easter-island-rapa-nui-moai-travel-video-still.jpg" alt="Easter Island moai travel image" loading="lazy" decoding="async"><figcaption>Rapa Nui / Easter Island.</figcaption></figure>
+        <figure><img src="assets/peru-sacred-valley-family.jpg" alt="Family travel image in Peru's Sacred Valley" loading="lazy" decoding="async"><figcaption>Peru's Sacred Valley.</figcaption></figure>
+        <figure><img src="assets/italy-rome-colosseum.jpg" alt="Barry Billcliff at the Colosseum in Rome" loading="lazy" decoding="async"><figcaption>Rome and the Colosseum.</figcaption></figure>
+        <figure><img src="assets/india-jaipur-jal-mahal-family-travel.jpg" alt="Travel image with Jal Mahal in Jaipur" loading="lazy" decoding="async"><figcaption>Jaipur, India.</figcaption></figure>
+        <figure><img src="assets/dubai-burj-khalifa-skyline-travel-portrait.jpg" alt="Dubai skyline travel portrait near the Burj Khalifa" loading="lazy" decoding="async"><figcaption>Dubai skyline.</figcaption></figure>
+        <figure><img src="assets/scuba-diving-adventure.jpg" alt="Scuba diving adventure image" loading="lazy" decoding="async"><figcaption>Underwater travel and adventure.</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="enhancement-panel" aria-label="Current site enhancements">
+      <p class="kicker">Current enhancements</p>
+      <h2>A cleaner travel archive with selective, recognizable proof.</h2>
+      <div class="enhancement-grid">
+        <article><strong>Selective curation</strong><p>The `.org` site emphasizes landmarks, ancient sites, and family-safe adventure instead of publishing every travel image.</p></article>
+        <article><strong>Stronger discovery</strong><p>Destination language gives search engines clear signals around Peru, Egypt, India, Rome, Australia, Dubai, and adventure travel.</p></article>
+        <article><strong>Accessible browsing</strong><p>Skip links, focus states, lazy image loading, and responsive image cards improve the archive on phone and desktop.</p></article>
       </div>
     </section>
 
@@ -98,6 +114,7 @@
 
   <footer>
     <p>Barry Billcliff international travel archive. Main profile: barrybillcliff.com.</p>
+    <p class="footer-links"><a href="http://www.barrybillcliff.com/">Official profile</a> <a href="https://www.barrybillcliff.net/">Music journalism</a> <a href="https://www.barrybillcliff.org/">Travel archive</a> <a href="https://www.barrybillcliff.ai/">AI projects</a></p>
   </footer>
 </body>
 </html>
